@@ -1,6 +1,76 @@
 .top-nav{
-    height: 50px;
+    height: 30px;
     background-color: rgb(0, 0, 0);
     width: 100%;
+    justify-content: flex-end;
+    display: flex;
 }
 
+.bt-nv{
+    border-radius: 10px;
+    font-size: 15px;
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+}
+
+.logo{
+    width: 30px;
+}
+
+.logo-testo{
+    width: 50px;
+    margin-right:10px ;
+}
+
+.mode{
+    justify-content: space-between;
+}
+
+.bck-img{
+    background-image: url(../img/jumbo-bg.png);
+    width: 100%;
+    
+    background-size: cover;
+    
+}
+
+.contenent{
+    color: white;
+    margin-top: 180px;
+}
+
+.contenent p{
+font-size: 12px;
+}
+.contenent h1{
+    font-size: 20px;
+    }
+.contenent div{
+    margin:5px 0px ;
+}   
+.returnal{
+    height: 20px;
+}
+
+.jambotrone-button{
+    height: 18px;
+    font-size: 10px;
+    background-color: red;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+.card{
+    border: none;
+    margin-top: 20px;
+}
+
+.card div{
+    margin-top: 10px;
+}
