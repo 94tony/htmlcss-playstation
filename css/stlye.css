@@ -54,7 +54,7 @@ font-size: 12px;
 }
 
 .container.paddy{
-    
+    padding: 0px 23vw;
 }
 
 .jambotrone-button{
@@ -113,8 +113,10 @@ font-size: 12px;
 .ps5 img, .bkg-g .container .row img, #april, .discount img , .bkg-b{
     width: 100%;
 }
-
-#ridimension ,#april {
+.discount img{
+    margin-top: 40px;
+}
+#ridimension  {
     width:80%
 }
 
@@ -132,10 +134,6 @@ font-size: 12px;
     width: 60%;
 }
 
-.box{
-    justify-content: space-between;
-    
-}
 
 .main-img{
     margin-top: 20px;
