@@ -53,6 +53,10 @@ font-size: 12px;
     height: 20px;
 }
 
+.container.paddy{
+    padding: 0px 23vw;
+}
+
 .jambotrone-button{
     height: 18px;
     font-size: 10px;
@@ -76,13 +80,16 @@ font-size: 12px;
 }
 
 .centered{
-    margin-top: 40px;
+    
     display: flex;
     flex-direction: column;
     text-align: center;
 }
+ .marg{
+     margin-top: 40px;
+}
 
-.centered h4{
+.marg h4{
     color: grey;
     margin-top: 10px;
 }
@@ -103,8 +110,17 @@ font-size: 12px;
     padding:2px
 }
 
-.ps5 img{
+.ps5 img, .bkg-g .container .row img, #april, .discount img , .bkg-b{
     width: 100%;
+}
+
+#ridimension ,#april {
+    width:80%
+}
+
+.cl img{
+    width: 100%;
+    padding:5px 0px
 }
 
 .verticalcenter{
@@ -140,4 +156,110 @@ font-size: 12px;
 .contenent-2 div{
     margin: 10px 0px;
     padding-top: 50px;
+}
+
+.img-grey{
+    background-color: rgb(87, 86, 86);
+    color: white;
+    
+    
+}
+
+
+
+.text-grey{
+    padding-top: 10px;
+    color: white;
+   
+}
+
+.img-grey .container img{
+    width: 100%;
+    
+    border-radius: 20px;
+}
+
+.img-grey h3 {
+    font-size: 14px;
+}
+
+.text-description, .psn {
+    padding-top: 70px;
+}
+
+.text-description p {
+    margin-top: 5px;
+    color: grey;
+}
+
+.bkg-g{
+background-color: lightgray;
+
+margin-top: 40px;
+}
+
+.psn p {
+    font-size: 10px;
+}
+
+.psn{
+    margin-left: 50px;
+}
+
+
+
+.bkg-b{
+    background-color: rgb(2, 2, 53);
+    margin-top: 50px;
+    
+    color: white;
+    
+}
+
+.bkg-btext{
+    padding-top: 80px;
+}
+
+.bkg-btext div{
+    margin: 20px 0px;
+}
+
+.bkg-blue {
+    background-color: blue;
+    margin-top: 40px;
+}
+
+.bkg-blue span img{
+    width: 3%;
+    margin-top: 30px;
+    vertical-align: sub;
+}
+
+.globo-text{
+    color: white;
+    margin-left: 12px;
+    vertical-align: middle;
+
+}
+
+.globo-text h6{
+    display: inline-block;
+}
+
+.row ul{
+    color: white;
+    margin-top: 50px;
+    list-style: none;
+}
+
+.margs{
+    margin-top: 50px;
+}
+
+.logo-sie{
+    width: 100px;
+}
+
+.white{
+    color: white;
 }
