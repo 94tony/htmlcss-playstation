@@ -85,6 +85,7 @@ font-size: 12px;
     flex-direction: column;
     text-align: center;
 }
+
  .marg{
      margin-top: 40px;
 }
@@ -105,9 +106,22 @@ font-size: 12px;
 
 .blue{
     background: blue;
-    font-size: 14px;
+    
     height: 30px;
-    padding:2px
+    padding:8px;
+    line-height: unset;
+    
+}
+
+.text{
+    font-size:11px;
+}
+
+.rule{
+    color:blue;
+    width: 50%;
+    opacity: unset;
+
 }
 
 .ps5 img, .bkg-g .container .row img, #april, .discount img , .bkg-b{
