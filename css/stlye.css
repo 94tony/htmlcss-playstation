@@ -30,7 +30,7 @@
 .bck-img{
     background-image: url(../img/jumbo-bg.png);
     width: 100%;
-    
+    background-position: top;
     background-size: cover;
     
 }
@@ -154,6 +154,7 @@ font-size: 12px;
     width: 100%;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
+    background-position: top;
 }
 
 .it-take{
